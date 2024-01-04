@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>SOHAG | Personal Protfolio</title>
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	
+	<div id="haeder">
+		<div class="container">
+			<nav>
+				<img src="img/logo.png" alt="logo" class="logo">
+				<ul id="sidemenu">
+					<li><a href="#haeder">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#services">Services</a></li>
+					<li><a href="#protfolio">Protfolio</a></li>
+					<li><a href="#contact">Contact</a></li>
+					<i class='bx bxl-slack-old' onclick="closemenu()"></i>
+				</ul>
+				<i class='bx bx-menu' onclick="openmenu()"></i>
+			</nav>
+
+			<!-- --- Nav-end -- -->
+
+			<div class="header-text">
+				<p>Full Stack Web Developer</p>
+				<h1>Hi, I'm <span>Sohag</span> <br> From Bangladesh.</h1>
+			</div>
+
+
+		</div>
+	</div>
+
+	<!-- --- Header Section End --- -->
+
+	<div id="about">
+		<div class="container">
+			<div class="row">
+				<div class="about-col-1">
+					<img src="img/user.png" alt=".." style="background: #262626;">
+				</div>
+				<div class="about-col-2">
+					<h1 class="sub-title">About Me</h1>
+					<p>Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Nobis hic error earum recusandae autem non facere fugit distinctio ex deleniti optio, aliquam dolorum animi ad aut necessitatibus, dolore eveniet aliquid! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod accusantium aperiam dolores, impedit quo quisquam repellat alias odio maiores? Mollitia quos placeat illo in? Delectus repellat odio veniam dolor iure.</p>
+
+					<div class="tab-titles">
+						<p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+						<p class="tab-links" onclick="opentab('experience')">Experience</p>
+						<p class="tab-links" onclick="opentab('education')">Education</p>
+					</div>
+
+					<!-- -- tab content -- -->
+					<div class="tab-contents active-tab" id="skills">
+						<ul>
+							<li><span>Teaching</span><br> Basic Computer & Web Design Courses</li>
+							<li><span>Frontend Develoment</span><br> Desgining any type of websitea</li>
+							<li><span>PHP & MYSQL</span><br> Development of Websites</li>
+						</ul>
+					</div>
+					<div class="tab-contents" id="experience">
+						<ul>
+							<li><span>2022 - Current</span><br> Basic Computer & Web Design Traniner at Hi-Tech IT Institute</li>
+							<li><span>2023 - Current</span><br> Frontend Development on Fiverr </li>
+						</ul>
+					</div>
+					<div class="tab-contents" id="education">
+						<ul>
+							<li><span>2021-2025</span><br> Diploma in Computer Technology.</li>
+							<li><span>2022</span><br> Frontend Development & PHP MYSQL</li>
+							<li><span>2021</span><br> Basic Computer & Office Application</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- ------- Abount Section -End --------- -->
+
+	<div id="services">
+		<div class="container">
+			<h1 class="sub-title">My Services</h1>
+
+			<div class="services-list">
+				<div>
+					<i class='bx bx-code-alt'></i>
+					<h2>Web Design</h2>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus obcaecati accusamus commodi accusantium! Dolores tenetur ad repudiandae impedit numquam repellendus porro.</p>
+					<a href="#">Learn More</a>
+				</div>
+				<div>
+					<i class='bx bxs-crop'></i>
+					<h2>UI/UX Design</h2>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus obcaecati accusamus commodi accusantium! Dolores tenetur ad repudiandae impedit numquam repellendus porro.</p>
+					<a href="#">Learn More</a>
+				</div>
+				<div>
+					<i class='bx bxs-devices'></i>
+					<h2>Responsive Design</h2>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus obcaecati accusamus commodi accusantium! Dolores tenetur ad repudiandae impedit numquam repellendus porro.</p>
+					<a href="#">Learn More</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- ------- Services Section End ------- -->
+
+	<div id="protfolio">
+		<div class="container">
+			<h1 class="sub-title">My Work</h1>
+
+			<div class="work-list">
+				<div class="work">
+					<img src="img/work-1.png" alt="...">
+
+					<div class="layer">
+						<h3>Social Media App</h3>
+						<p>The app connects you to the talented peopele around the world. Download it from play store.</p>
+						<a href="#"><i class='bx bx-link-external'></i></a>
+					</div>
+				</div>
+				<div class="work">
+					<img src="img/work-2.png" alt="...">
+
+					<div class="layer">
+						<h3>Music App</h3>
+						<p>The app connects you to the talented peopele around the world. Download it from play store.</p>
+						<a href="#"><i class='bx bx-link-external'></i></a>
+					</div>
+				</div>
+				<div class="work">
+					<img src="img/work-3.png" alt="...">
+
+					<div class="layer">
+						<h3>Online Shopping App</h3>
+						<p>The app connects you to the talented peopele around the world. Download it from play store.</p>
+						<a href="#"><i class='bx bx-link-external'></i></a>
+					</div>
+				</div>
+			</div>
+			<!-- --btn -->
+			<a href="#" class="btn">See more</a>
+		</div>
+	</div>
+
+	<!-- ------- Protfolio Section End -------- -->
+
+	<div id="contact">
+		<div class="container">
+			<div class="row">
+				<div class="contact-left">
+					<h1 class="sub-title">Contact Me</h1>
+					<p><i class='bx bx-send' ></i> github.com/enginnersohag</p>
+					<p><i class='bx bxs-phone'></i> +88017-5096-5595</p>
+					<div class="social-icons">
+						<a href="#"><i class='bx bxl-facebook-square'></i></a>
+						<a href="#"><i class='bx bxl-linkedin-square' ></i></a>
+						<a href="#"><i class='bx bxl-github'></i></a>
+						<a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+					</div>
+					<!-- --- CV Download Links -- -->
+					<a href="img/my-cv.pdf" download class="btn btn2">Download CV</a>
+				</div>
+				<div class="contact-right">
+					<form name="submit-to-google-sheet">
+						<input type="text" name="Name" placeholder="Your Name" required>
+						<input type="email" name="Email" placeholder="Your Email" required>
+						<textarea name="Message" rows="6" placeholder="Your Massage"></textarea>
+						<button type="submit" class="btn btn2">Submit</button>
+					</form>
+					<span id="msg"></span>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- ------ Footer Section ------ -->
+
+	<div class="footer">
+		<p>Copyright &copy; <span>S</span>ohag. Made with 😍 by Sohag Hosen</p>
+	</div>
+
+
+	<script src="main.js"></script>
+</body>
+</html>
